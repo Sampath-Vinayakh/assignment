@@ -1,0 +1,54 @@
+.login {
+  font-size: 2.5rem;
+}
+
+.login form {
+  width: 70%;
+  max-width: 440px;
+  margin: 0 auto;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border: 5px solid var(--color-light-1);
+  padding: 1em 0.8em;
+  border-radius: 10px;
+}
+
+.login h3 {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.login label {
+  color: var(--color-gray-1);
+}
+
+.login button {
+  background-color: var(--color-background-main);
+  color: var(--color-primary);
+  border-radius: 5px;
+  margin-top: 0.6rem;
+}
+
+.login input {
+  background-color: var(--color-light-1);
+}
+
+.login p {
+  font-size: 0.5em;
+  margin-top: 1em;
+  color: var(--color-gray-1);
+}
+
+.login p a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: inherit;
+}
+
+@media screen and (min-width: 760px) {
+  .login {
+    font-size: 3.25rem;
+  }
+}

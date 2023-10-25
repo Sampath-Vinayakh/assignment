@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&family=Tilt+Neon&display=swap");
+
+:root {
+  --color-background-main: #fff;
+  --color-header-main: linear-gradient(to right, #4470e5, #2a1a9e);
+  --color-primary: #4470e5;
+  --color-primary-dark: #2a1a9e;
+  --color-light: #fff;
+  --color-light-1: #e7e8eb;
+  --color-light-2: #c5c6c7;
+  --color-gray-1: #6e7076;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background-color: var(--color-background-main);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.5rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 1.5rem;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+button {
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 0.5em;
+  font-size: 1.5rem;
+  border: 3px solid var(--color-primary);
+}
+
+.loader-box {
+  font-size: 2.5rem;
+  padding: 1em 1.5em;
+  margin-top: 8em;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 760px) {
+  :root {
+    --text-multipler: 1.3;
+  }
+
+  h1 {
+    font-size: 3.9rem;
+  }
+
+  h2 {
+    font-size: 3.25rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+
+  h4 {
+    font-size: 1.95rem;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+  }
+
+  h6 {
+    font-size: 0.65rem;
+  }
+
+  label {
+    font-size: 1.95rem;
+  }
+
+  input {
+    font-size: 1.95rem;
+    border-radius: 6px;
+  }
+
+  button {
+    margin-top: 1.3;
+    padding: 0.5em;
+    font-size: 1.95rem;
+  }
+}

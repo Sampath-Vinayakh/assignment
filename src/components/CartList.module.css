@@ -1,0 +1,43 @@
+.cartList {
+  font-size: 2.5rem;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+
+.cartList table {
+  width: 100%;
+  font-size: 0.5em;
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+
+.cartList table thead {
+  border-top: 2px solid var(--color-gray-1);
+  border-bottom: 2px solid var(--color-gray-1);
+}
+
+.cartList table td,
+.cartList table th {
+  padding: 1em;
+  text-align: center;
+}
+
+.cartList table img {
+  width: 2.5em;
+}
+
+.cartList table i {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 760px) {
+  .cartList {
+    font-size: 3.25rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cartList {
+    font-size: 4.22rem;
+  }
+}
